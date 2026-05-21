@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="79">
     <author>Wopster</author>
     <version>1.2.0.0</version>
@@ -79,7 +79,7 @@ Changelog 1.1.0.0:
 ]]>
         </de>
         <fr>
-            <![CDATA[Le mod Manure System change tout le gameplay autour de la gestion de votre installation de lisier. Découvrez ce que cela signifie vraiment de pomper des liquides en tant que véritable agriculteur.
+            <![CDATA[Le mod Manure System change tout le gameplay autour de la gestion de votre installation de lisier. Découvrez ce que cela signifie vraiment de pomper des liquides en tant que fermier.
 Utilisez les bras de remplissage pour pouvoir pomper à partir de sources ouvertes telles que : les conteneurs de lisier, les bassins et les sources d'eau.
 Utilisez un bras de remplissage spécialisé afin d'aspirer à partir du cône de raccordement, ou utilisez simplement un tuyau d'aspiration.
 Avec un tuyau d'aspiration, vous pouvez pomper liquide de la source à la cible. Le cas échéant, vous pouvez allonger le tuyau d'aspiration pour atteindre de plus grandes distances.

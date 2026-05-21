@@ -1,6 +1,6 @@
-# Manure System for Farming Simulator 22
+# Manure System for Farming Simulator 25
 
-![For Farming Simulator 22](https://img.shields.io/badge/Farming%20Simulator-22-10BEFF.svg) [![Releases](https://img.shields.io/github/release/stijnwop/manureSystem.svg)](https://github.com/stijnwop/manureSystem/releases) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![For Farming Simulator 25](https://img.shields.io/badge/Farming%20Simulator-25-10BEFF.svg) [![Releases](https://img.shields.io/github/release/stijnwop/manureSystem.svg)](https://github.com/stijnwop/manureSystem/releases)
 
 The Manure System mod changes the whole gameplay around handling your manure application. Experience what it really
 means to pump liquids as a real farmer.
@@ -50,9 +50,9 @@ hoses affects your pump time.
 ## Known conflicts
 
 * [Contact modder] [3rd Person](https://www.farming-simulator.com/mod.php?mod_id=234226)
-  * Unfortunately, that mod replaces the Player.update() code, breaking any mods that depend on/add to that call. Contact the modder to mention that Utilly functions such as `overwriteFunction` and `appendedFunction` should be used instead.
+  * Unfortunately, that mod replaces the Player.update() code, breaking any mods that depend on/add to that call. Contact the modder to mention that Utilly functions such as `overwriteFunction` are available.
 * [Contact modder]  [Precision Hands](https://www.farming-simulator.com/mod.php?mod_id=265312)
-  * Sadly, that mod does not overwrite the Player.pickUpObject() function correctly by not calling the superFunc, therefor making the hose grap and drop functions unreachable. Contact the modder to mention that the superFunc should be called to maintain comptible with other any other mod relaying on that function.
+  * Sadly, that mod does not overwrite the Player.pickUpObject() function correctly by not calling the superFunc, therefor making the hose grap and drop functions unreachable. Contact the modder to fix this.
 * [Fixed] [Mobile Workshop](https://www.farming-simulator.com/mod.php?mod_id=225545)
   * Removed obsolete FS19 code in Manure System, please download the latest version of the Manure System
 
@@ -161,14 +161,14 @@ objects don't need extra preparation!
 | Kotte FRC65                                             | Vehicle   | -                                                                                                        |
 | Kotte TSA                                               | Vehicle   | -                                                                                                        |
 | Kotte PQ32000                                           | Vehicle   | -                                                                                                        |
-| Oxbo AT4103                                             | Vehicle   | [Oxbo Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs22oxbo)                            |
-| Oxbo AT5105                                             | Vehicle   | [Oxbo Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs22oxbo)                            |
-| Oxbo Series6030                                         | Vehicle   | [Oxbo Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs22oxbo)                            |
+| Oxbo AT4103                                             | Vehicle   | [Oxbo Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs25oxbo)                            |
+| Oxbo AT5105                                             | Vehicle   | [Oxbo Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs25oxbo)                            |
+| Oxbo Series6030                                         | Vehicle   | [Oxbo Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs25oxbo)                            |
 | Ploeger AT5104 LNMS                                     | Vehicle   | -                                                                                                        |
-| Kotte PTR30000                                          | Vehicle   | [Precision Farming](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs22precisionfarming)        |
-| John Deere R700I                                        | Vehicle   | [Precision Farming](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs22precisionfarming)        |
-| Kaweco Saddle Trac Tanker Front                         | Vehicle   | [Claas Xerion Saddle Track Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs22saddletrac) |
-| Kaweco Semi Trailed Trailer                             | Vehicle   | [Claas Xerion Saddle Track Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs22saddletrac) |
+| Kotte PTR30000                                          | Vehicle   | [Precision Farming](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs25precisionfarming)        |
+| John Deere R700I                                        | Vehicle   | [Precision Farming](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs25precisionfarming)        |
+| Kaweco Saddle Trac Tanker Front                         | Vehicle   | [Claas Xerion Saddle Track Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs25saddletrac) |
+| Kaweco Semi Trailed Trailer                             | Vehicle   | [Claas Xerion Saddle Track Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs25saddletrac) |
 | Samson PGII35m                                          | Vehicle   | -                                                                                                        |
 | Schouten VT130                                          | Vehicle   | -                                                                                                        |
 | Veenhuis Premium Integral 20000                         | Vehicle   | -                                                                                                        |
@@ -196,10 +196,10 @@ objects don't need extra preparation!
 | RudolfHormann cow barn big vector                       | Placeable | -                                                                                                        |
 | RudolfHormann pig barn medium                           | Placeable | -                                                                                                        |
 | RudolfHormann pig barn big                              | Placeable | -                                                                                                        |
-| Stallkamp open corrugated steel tank 17m, 25m and 32m   | Placeable | [Pumps n' Hoses Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs22pumpsnhoses)           |
-| Stallkamp closed corrugated steel tank 17m, 25m and 32m | Placeable | [Pumps n' Hoses Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs22pumpsnhoses)           |
-| Stallkamp open flat steel tank 13m, 19m and 25m         | Placeable | [Pumps n' Hoses Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs22pumpsnhoses)           |
-| Stallkamp closed flat steel tank 13m, 19m and 25m       | Placeable | [Pumps n' Hoses Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs22pumpsnhoses)           |
+| Stallkamp open corrugated steel tank 17m, 25m and 32m   | Placeable | [Pumps n' Hoses Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs25pumpsnhoses)           |
+| Stallkamp closed corrugated steel tank 17m, 25m and 32m | Placeable | [Pumps n' Hoses Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs25pumpsnhoses)           |
+| Stallkamp open flat steel tank 13m, 19m and 25m         | Placeable | [Pumps n' Hoses Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs25pumpsnhoses)           |
+| Stallkamp closed flat steel tank 13m, 19m and 25m       | Placeable | [Pumps n' Hoses Pack](https://www.farming-simulator.com/dlc-detail.php?dlc_id=fs25pumpsnhoses)           |
 
 ## Modding
 
